@@ -23,7 +23,7 @@ if word[0].lower() in eng:
             if letter.upper() in value:
                 result += key
 else:
-    if word[0].lower() in rus:
+    # if word[0].lower() in rus:
         for letter in word:
             for key, value in librus.items():
                 if letter.upper() in value:
