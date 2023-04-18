@@ -20,12 +20,13 @@ for i in range(1,n+1):
     array.append(random.randint(minarr, maxarr))
 
 x = int(input("Введите искомое число: "))
-count = 0
+# count = 0
 
 print(array)
 
-for i in array:
-    if i == x:
-        count += 1
+# for i in array:
+#     if i == x:
+#         count += 1
 
-print(f"Элемент {x} встречается в массиве {count} раз.")
+
+print(f"Элемент {x} встречается в массиве {array.count(x)} раз.")
